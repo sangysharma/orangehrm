@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke Test" duration-ms="124" started-at="2020-12-01T01:25:22Z" finished-at="2020-12-01T01:25:22Z">
+    <groups>
+      <group name="Red">
+        <method signature="HookPractice.test1()[pri:0, instance:practice.HookPractice2@42d80b78]" name="test1" class="practice.HookPractice"/>
+      </group> <!-- Red -->
+      <group name="odd">
+        <method signature="HookPractice.test1()[pri:0, instance:practice.HookPractice2@42d80b78]" name="test1" class="practice.HookPractice"/>
+        <method signature="HookPractice.test3()[pri:0, instance:practice.HookPractice2@42d80b78]" name="test3" class="practice.HookPractice"/>
+        <method signature="HookPractice2.test5()[pri:0, instance:practice.HookPractice2@42d80b78]" name="test5" class="practice.HookPractice2"/>
+      </group> <!-- odd -->
+    </groups>
+    <test name="First Test Run" duration-ms="124" started-at="2020-12-01T01:25:22Z" finished-at="2020-12-01T01:25:22Z">
+      <class name="practice.HookPractice2">
+        <test-method status="PASS" signature="test1()[pri:0, instance:practice.HookPractice2@42d80b78]" name="test1" duration-ms="33" started-at="2020-12-01T01:25:22Z" finished-at="2020-12-01T01:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:practice.HookPractice2@42d80b78]" name="test3" duration-ms="7" started-at="2020-12-01T01:25:22Z" finished-at="2020-12-01T01:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test5()[pri:0, instance:practice.HookPractice2@42d80b78]" name="test5" duration-ms="5" started-at="2020-12-01T01:25:22Z" finished-at="2020-12-01T01:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- practice.HookPractice2 -->
+    </test> <!-- First Test Run -->
+  </suite> <!-- Smoke Test -->
+</testng-results>

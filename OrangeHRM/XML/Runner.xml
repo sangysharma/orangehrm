@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke Test">
+	<test name="First Test Run">
+		<groups>
+			<run>
+				<include name="odd"></include>
+			</run>
+		</groups>
+		<classes>
+			
+			<class name="practice.HookPractice2"></class>
+		</classes>
+	</test>
+
+
+
+
+
+
+</suite>
