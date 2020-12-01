@@ -74,18 +74,18 @@ public class HookPractice2 extends HookPractice {
 	}
 	
 	@Test  (groups="even")
-	public void test4() {
-		System.out.println("This is test4");
+	public void test7() {
+		System.out.println("This is test7");
 	}
 	
 	@Test (groups="odd")
-	public void test5() {
-		System.out.println("This is test5");
+	public void test8() {
+		System.out.println("This is test8");
 	}
 	
 	@Test   (groups="even")
-	public void test6() {
-		System.out.println("This is test6");
+	public void test9() {
+		System.out.println("This is test9");
 	}
 	
 }
